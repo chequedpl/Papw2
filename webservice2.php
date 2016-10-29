@@ -5,8 +5,7 @@ header('Content-type: application/json');
 	
 	if ($action == "login")
 		login();
-	if ($action == "registro")
-		registro();
+
 
 	function connect(){
 		$databasehost = "127.0.0.1";
@@ -56,38 +55,7 @@ header('Content-type: application/json');
 
 	}
 
-		function registro(){
-
-		$username = $_REQUEST['username'];
-		$email = $_REQUEST['email'];
-		$password = $_REQUEST['password'];
-		$fecha = $_REQUEST['fecha'];
-		$genero = $_REQUEST['genero'];
-
-		$mysqli = connect();
-
-
-		$result = $mysqli->query("call sp_registro ('".$username. "', '".$email."', '".$password."', '".$fecha."', '".$genero."')");
-
-
-		if (!$result) {
-			echo "Problema al hacer un query: " . $mysqli->error;								
-		} else {
-			//echo "Todo salio bien";	
-			
-			 $rows = array();
-
-			 	while( $r = $result->fetch_assoc()) {
-			 	$rows[] = $r;
-			}
-					
-			echo json_encode($rows);	
-		}
 		
-		$result->free();
-		disconnect($mysqli);
-
-	}
 
 		// $user = $_REQUEST['Usuario'];
 		// $pass = $_REQUEST['Correo'];
