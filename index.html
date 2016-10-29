@@ -3,20 +3,24 @@
 <head>
 	<title>Login</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/login.js" ></script>
 
 </head>
 <body>
-	<img src="dragon.png">
+	<img src="img/dragon.png">
 		<div id="login">
-				<form >
-				Usuario
-					<input class="in" type="text" name="user">
-				Contraseña
-					<input class="in" type="password" name="pass">
-					<input class="in" type="submit" id="btn" name="btnSub" value="Login">
-					<input type="checkbox" name=""> Recuerdame
-				</form>
+			
+			Usuario
+			<input class="in" type="text" id="user">
+			Contraseña
+			<input class="in" type="password" id="pass">
+			<input class="in" type="button" id="btnLogin" onclick="enviardatos();">
+
+			<input type="checkbox" name=""> Recuerdame
+			
 		</div>
 </body>
 </html>
