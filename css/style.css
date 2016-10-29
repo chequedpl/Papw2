@@ -33,17 +33,17 @@ body{
 	border-radius:  5px;
 }
 
-#btn{
+#btnLogin{
 
 	background-color: green;
 	opacity: 0.9;
 }
 
-#btn:hover{
+#btnLogin:hover{
 	opacity: 1;
 }
 
-#btn:active{
+#btnLogin:active{
 	transform: scale(0.9);
 }
 
