@@ -18,11 +18,14 @@
 					
 					
 					
-					 if (data != null) {
+					 if (data.length == 0) {
+						 alert ("Intentelo de Nuevo"); 	
+					 }	else{
 					 	var nombre = data[0].nombre;
 					 	var email = data[0].email;
-					 }		
-					// $('#scores-container').show();
+					
+					}
+					
 				},
 				error: function(x,y,z){
 					alert("ERROR BITCH" + x + y + z);

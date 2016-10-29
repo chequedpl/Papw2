@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background: #163F5B;
+}
+
+
+#status {
+	margin-top: 5px;
+	height: 70px;
+	width: 100%;
+	background-color: red;
+}
+
+#main {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top:  50px;
+	height: 600px;
+	width: 80%;
+	background-color: pink;
+	border-radius: 5px;
+}
+
+#bus {
+	margin-top: 14px;
+	margin-left: 39%;
+	padding: 15px;
+	height: 35px;
+	width: 305px;
+
+}

@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background: #163F5B;
+}
+
+#main{
+	margin: auto;
+	margin-top: 80px;
+	width: 50%;
+	max-width: 500px;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+	text-align: center;
+	border-radius: 5px;
+	background-color: #F7FFF9;
+}
+
+.texto{
+	display: block;
+	padding: 10px;
+	width: 100%;
+}
