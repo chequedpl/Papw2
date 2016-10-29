@@ -19,11 +19,13 @@
 					
 					
 					 if (data.length == 0) {
-						 alert ("Intentelo de Nuevo"); 	
+						 alert ("Intentelo de Nuevo");
+						 window.location.replace("index.html");
+
 					 }	else{
 					 	var nombre = data[0].nombre;
 					 	var email = data[0].email;
-					
+
 					}
 					
 				},

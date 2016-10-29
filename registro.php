@@ -6,12 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/regstyle.css">
 
 	<script type="text/javascript" src="jquery/jquery.js"></script>
-	<script type="text/javascript" src="js/registro.js"></script>
 
-	<script type="text/javascript">
-		
-
-	</script>
 
 
 </head>
@@ -28,7 +23,7 @@
 				Fecha	<input type="date" name="Fecha" id="fecha" class="in"> <br>
 				<input type="radio" name="generos" value="H"  id="generoH"checked> Hombre
 	  			<input type="radio" name="generos" value="M" id="generoF"> Mujer <br> <br>			
-				Portada <br>
+				
 
 				<input type="submit" name="submit" class="in" id="btn" onclick="">
 

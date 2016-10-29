@@ -14,7 +14,7 @@ body{
 	margin-top: 5px;
 	height: 70px;
 	width: 100%;
-	background-color: red;
+	background-color: #74EDFF;
 }
 
 #main {
@@ -23,7 +23,7 @@ body{
 	margin-top:  50px;
 	height: 600px;
 	width: 80%;
-	background-color: pink;
+	background-color: #5BEAFF;
 	border-radius: 5px;
 }
 
