@@ -2,24 +2,26 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font: Arial,sans-serif ;
 }
 
 body{
 
-	background: #163F5B;
+	background:#f7f7f7;
+	
 }
 
 #reg {
 
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 40px;
 	width: 50%;
 	max-width: 500px;
 	padding: 20px;
 	border: 1px solid rgba(0,0,0,0.2);
 	text-align: center;
 	border-radius: 5px;
-	background-color: #3EB1FF;
+	background-color: #0097a7;
 
 }
 
@@ -27,7 +29,10 @@ body{
 
 	display: block;
 	padding: 10px;
+	margin: 15px 0;
 	width: 100%;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius:  5px;
 }
 
 
@@ -40,7 +45,7 @@ img{
 
 #btn{
 
-	background-color: #F7FFF9;
+	background-color: #00bcd4;
 	opacity: 0.8;
 }
 

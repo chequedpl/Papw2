@@ -17,7 +17,7 @@
 			Precio		<input type="text" name="precio" class="texto"><br>
 			Fotos 		<input type="file" name="foto1" class="texto"><br>
 						<input type="file" name="foto2" class="texto"><br>
-						<input type="submit" name="submit">
+						<input type="submit" name="submit" class="texto">
 		</form>
 	</div>
 
